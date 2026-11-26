@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Erica Nutrición</title>
+<style>
+:root{--navy:#873f62;--blue:#b85d83;--red:#a83f70;--gold:#e9b6c9;--ink:#392b33;--muted:#806f79;--bg:#fff7fa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,Arial,sans-serif}
+header{background:white;padding:12px 5%;display:flex;align-items:center;gap:14px;border-bottom:1px solid #ddd}
+header img{width:62px;height:68px;object-fit:contain}.ueb-mark{width:58px;height:58px;display:grid;place-items:center;flex:0 0 58px;border-radius:12px;background:var(--navy);color:#fff;font-weight:900;font-size:1.1rem;letter-spacing:.06em;border-bottom:4px solid var(--gold)}.sub{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.brand{font-weight:800;color:var(--navy);line-height:1.25}
+nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}nav a{color:var(--blue);text-decoration:none;font-weight:700;font-size:.88rem}
+.hero{background:linear-gradient(120deg,#873f62,#c16f94);color:white;padding:66px 7%}.hero h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.08;max-width:850px;margin:12px 0}.hero p{max-width:760px;color:#e7f0f8;font-size:1.08rem}.hero .byline{color:#f3d68c;font-weight:750;letter-spacing:.04em}
+.wrap{max-width:1100px;margin:auto;padding:54px 22px}.tag{font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+h2{color:var(--navy);font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.2;margin:7px 0 14px}.intro{color:var(--muted);max-width:820px}.lead{font-size:1.08rem;max-width:850px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:24px}.card{background:white;border:1px solid #e2eaf1;border-radius:15px;padding:22px;box-shadow:0 8px 25px #163b5b0a}
+.card h3,.tile h3{color:var(--navy);margin:5px 0 8px}.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.tile{background:white;border:1px solid #e2eaf1;border-radius:14px;padding:22px}
+.info-list{padding-left:22px}.info-list li{margin:8px 0}.soft{background:#fcecf2}.callout{border-left:4px solid var(--gold);background:#fff;padding:18px 20px;border-radius:8px;margin-top:22px}
+label{display:block;font-weight:700;font-size:.9rem;margin:10px 0 4px}input,select,textarea{width:100%;padding:11px;border:1px solid #cbd7e1;border-radius:8px;font:inherit}textarea{min-height:110px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{display:inline-block;margin-top:14px;padding:12px 17px;border:0;border-radius:8px;background:var(--red);color:white;font-weight:750;text-decoration:none;cursor:pointer}.blue{background:var(--navy)}
+.result{display:none;margin-top:14px;padding:14px;background:#fcecf2;border-left:4px solid var(--blue);border-radius:8px}.note{background:#fbf6e8;padding:12px;border-radius:8px;color:#655b40;font-size:.85rem;margin-top:14px}
+.credits{background:#71344f;color:white;text-align:center;padding:34px 20px}.credits strong{color:#f3d68c}.credits p{color:#d7e4ef;margin:5px}footer{text-align:center;color:#778592;padding:18px;font-size:.82rem}
+@media(max-width:760px){header{flex-wrap:wrap}nav{width:100%;margin:0;gap:12px}.hero{padding:48px 7%}.grid,.tiles{grid-template-columns:1fr}.row{grid-template-columns:1fr}.wrap{padding:42px 20px}}
+</style>
+</head>
+<body>
+<header>
+<div class="ueb-mark" aria-label="Universidad Evangélica Boliviana">UEB</div>
+<div><div class="sub">Universidad Evangélica Boliviana</div><div class="brand">Nutrición Infantil y Lactancia Materna</div></div>
+<nav><a href="#lactancia">Lactancia</a><a href="#alimentacion">Alimentación</a><a href="#crecimiento">Crecimiento</a><a href="#herramientas">Calculadoras</a><a href="#consultas">Consultas</a></nav>
+</header>
+<section class="hero">
+<div class="byline">UN ESPACIO DE ORIENTACIÓN Y ACOMPAÑAMIENTO</div>
+<h1>Nutrición Infantil y Lactancia Materna</h1>
+<p>Conoce la importancia de una buena nutrición durante los primeros años de vida. Encuentra información práctica sobre lactancia materna, alimentación complementaria y crecimiento infantil.</p>
+</section>
+<main>
+<section class="wrap" id="bienvenida">
+<div class="tag">Bienvenida</div><h2>Los primeros años importan</h2>
+<p class="lead">Durante los primeros años de vida, una alimentación adecuada contribuye al crecimiento, al desarrollo y al bienestar de niñas y niños. La información y el acompañamiento oportuno ayudan a las familias a tomar decisiones informadas en cada etapa.</p>
+<p class="intro">Este espacio reúne contenidos introductorios y herramientas de apoyo para madres, padres y cuidadores. Puedes recorrer los temas a tu ritmo y, al final, utilizar las calculadoras o enviar una consulta.</p>
+</section>
+<section class="wrap soft" id="lactancia">
+<div class="tag">01 · Lactancia materna</div><h2>Un comienzo lleno de beneficios</h2>
+<p>La leche materna aporta energía y nutrientes importantes para el bebé. También contiene componentes que contribuyen a protegerlo frente a infecciones y favorecen el vínculo entre la madre y su hijo.</p>
+<div class="tiles">
+<article class="tile"><h3>Nutrición adecuada</h3><p>La leche materna aporta nutrientes en cantidades y proporciones apropiadas para las necesidades del bebé durante sus primeros meses.</p></article>
+<article class="tile"><h3>Protección y salud</h3><p>Sus componentes inmunológicos ayudan a proteger al bebé frente a diversas infecciones.</p></article>
+<article class="tile"><h3>Vínculo afectivo</h3><p>La lactancia puede favorecer el contacto cercano, la seguridad y el vínculo entre madre e hijo.</p></article>
+</div>
+<div class="callout"><strong>Recomendación general:</strong> la Organización Mundial de la Salud recomienda lactancia materna exclusiva durante los primeros seis meses y continuarla, junto con alimentos complementarios adecuados, hasta los dos años o más.</div>
+</section>
+<section class="wrap" id="alimentacion">
+<div class="tag">02 · Alimentación complementaria</div><h2>Descubrir nuevos sabores, paso a paso</h2>
+<p>Alrededor de los seis meses, las necesidades de energía y nutrientes del bebé comienzan a ser mayores que lo que la leche materna puede aportar por sí sola. En esta etapa se incorporan alimentos complementarios de forma gradual, manteniendo la lactancia materna.</p>
+<div class="grid">
+<article class="card"><h3>¿Cómo empezar?</h3><ul class="info-list"><li>Ofrecer alimentos variados, nutritivos y de consistencia adecuada para la edad.</li><li>Comenzar con pequeñas cantidades y aumentar progresivamente según la aceptación y las necesidades del bebé.</li><li>Respetar las señales de hambre y saciedad, sin forzar la alimentación.</li><li>Mantener una buena higiene en la preparación y conservación de los alimentos.</li></ul></article>
+<article class="card"><h3>Alimentación segura</h3><ul class="info-list"><li>El bebé debe comer sentado y siempre bajo la supervisión de una persona adulta.</li><li>Adaptar la textura y el tamaño de los alimentos para reducir el riesgo de atragantamiento.</li><li>Evitar alimentos duros, pequeños y redondos que puedan obstruir la vía aérea.</li><li>Consultar al equipo de salud ante dudas sobre alergias, dificultades para comer o crecimiento.</li></ul></article>
+</div>
+</section>
+<section class="wrap soft" id="crecimiento">
+<div class="tag">03 · Crecimiento y desarrollo</div><h2>Observar el crecimiento también es cuidar</h2>
+<p>El seguimiento periódico del peso y la longitud o talla permite observar cómo está creciendo el bebé. Las medidas deben tomarse correctamente y analizarse considerando la edad y el sexo, utilizando patrones de crecimiento reconocidos.</p>
+<div class="tiles">
+<article class="tile"><h3>Peso para la edad</h3><p>Relaciona el peso del bebé con su edad y ayuda a identificar posibles desviaciones en el crecimiento.</p></article>
+<article class="tile"><h3>Longitud para la edad</h3><p>Permite observar el crecimiento lineal y valorar si la longitud o talla corresponde a la edad.</p></article>
+<article class="tile"><h3>Peso para la longitud</h3><p>Relaciona el peso con la longitud o talla y aporta información sobre la proporcionalidad del crecimiento.</p></article>
+</div>
+<p class="intro">Una medición aislada no cuenta toda la historia: es importante observar la evolución en el tiempo y realizar una interpretación profesional.</p>
+</section>
+<section class="wrap" id="herramientas">
+<div class="tag">Herramientas de apoyo</div><h2>Calculadoras infantiles</h2>
+<p class="intro">Si ya conoces los datos de tu bebé, puedes utilizar estas herramientas como apoyo para organizar la información y conocer la edad en días. Los resultados deben interpretarse junto con un profesional de salud.</p>
+<div class="grid">
+<article class="card"><div class="tag">0 a 24 meses</div><h3>Evaluación nutricional infantil</h3>
+<div class="row"><div><label for="sex">Sexo del bebé</label><select id="sex"><option value="">Seleccionar</option><option value="M">Masculino</option><option value="F">Femenino</option></select></div><div><label for="age">Edad (meses)</label><input id="age" type="number" min="0" max="24" step=".1"></div><div><label for="weight">Peso actual (kg)</label><input id="weight" type="number" min=".3" step=".01"></div><div><label for="length">Longitud o talla (cm)</label><input id="length" type="number" min="30" step=".1"></div></div>
+<button class="btn blue" type="button" onclick="growth()">Evaluar datos</button><div class="result" id="growthResult" aria-live="polite"></div>
+<div class="note"><b>Sobre la interpretación:</b> el IMC se muestra como dato complementario. Para clasificar el crecimiento infantil se deben calcular los puntajes Z de peso/edad, longitud/talla/edad y peso/longitud con los patrones OMS específicos por sexo y edad/longitud. No se asigna una etiqueta de “normal”, “sobrepeso” o “obesidad” a partir del IMC aislado.</div>
+</article>
+<article class="card"><div class="tag">180 días</div><h3>Inicio de alimentación complementaria</h3>
+<label for="dob">Fecha real de nacimiento</label><input id="dob" type="date">
+<label for="visit">Fecha de evaluación / consulta</label><input id="visit" type="date">
+<button class="btn blue" type="button" onclick="complementary()">Calcular edad del bebé</button><div class="result" id="compResult" aria-live="polite"></div>
+<div class="note">La alimentación complementaria suele iniciarse alrededor de los seis meses, manteniendo la lactancia materna. También debe considerarse el desarrollo y la orientación del equipo de salud.</div>
+</article>
+</div>
+</section>
+<section class="wrap soft" id="consultas">
+<div class="tag">Acompañamiento</div><h2>¿Tienes alguna consulta?</h2>
+<p class="intro">Si deseas orientación o tienes alguna duda sobre los temas presentados, puedes escribir tu mensaje. Se abrirá WhatsApp para que puedas enviarlo.</p>
+<div class="card"><label for="question">Escribe tu consulta</label><textarea id="question" placeholder="Cuéntanos tu duda o consulta..."></textarea><a class="btn" id="wa" href="https://wa.me/59167750171" target="_blank" rel="noopener">Enviar consulta por WhatsApp</a></div>
+</section>
+</main>
+<section class="credits"><div style="color:#f3d68c">RESPONSABLE DEL PROYECTO</div><h2 style="color:white">Nutrición Infantil y Lactancia Materna</h2><p>Profesional de Nutrición</p><strong>Erica Ortiz Quiroga</strong><p>Universidad Evangélica Boliviana</p></section>
+<footer>Contenido de orientación nutricional. La evaluación individual y las decisiones sobre la salud del bebé deben realizarse con acompañamiento profesional.</footer>
+<script>
+function show(id,t){const e=document.getElementById(id);e.textContent='';e.innerHTML=t;e.style.display='block'}
+function growth(){
+ const sex=document.getElementById('sex').value, ageInput=document.getElementById('age'), weightInput=document.getElementById('weight'), lengthInput=document.getElementById('length');
+ const a=Number(ageInput.value),w=Number(weightInput.value),l=Number(lengthInput.value);
+ if(!sex||ageInput.value===''||a<0||a>24||!Number.isFinite(w)||w<.3||!Number.isFinite(l)||l<30){show('growthResult','Revisa sexo, edad (0–24 meses), peso y longitud/talla.');return}
+ const bmi=w/Math.pow(l/100,2);
+ show('growthResult',`<strong>Resumen antropométrico</strong><br>Sexo: ${sex==='M'?'Masculino':'Femenino'} · Edad ingresada: ${a} meses<br>Peso: ${w.toFixed(2)} kg · Longitud/talla: ${l.toFixed(1)} cm<br><br><strong>IMC: ${bmi.toFixed(2)} kg/m²</strong><br><small>Cálculo: ${w.toFixed(2)} ÷ (${(l/100).toFixed(3)} × ${(l/100).toFixed(3)}).</small><br><br><strong>¿Qué significa?</strong><br>Este es el valor numérico del IMC, no una categoría nutricional. En menores de 2 años la valoración se realiza principalmente con curvas OMS y puntajes Z de peso/edad, longitud/edad y peso/longitud. La clasificación requiere las tablas LMS oficiales y mediciones fiables; no es correcto inferir “normal”, “sobrepeso”, “obesidad” o velocidad de crecimiento con una sola medición.<br><br><strong>Siguiente paso:</strong> registrar las mediciones seriadas y revisarlas con la profesional de nutrición.`);
+}
+function complementary(){
+ const b=document.getElementById('dob').value,d=document.getElementById('visit').value;
+ if(!b||!d){show('compResult','Selecciona las dos fechas en el calendario.');return}
+ const birth=new Date(b+'T12:00:00'), visit=new Date(d+'T12:00:00');
+ const n=Math.floor((visit-birth)/86400000);
+ if(n<0){show('compResult','La fecha de consulta no puede ser anterior al nacimiento.');return}
+ let years=visit.getFullYear()-birth.getFullYear();
+ let months=visit.getMonth()-birth.getMonth();
+ let days=visit.getDate()-birth.getDate();
+ if(days<0){months--; const prevMonth=new Date(visit.getFullYear(),visit.getMonth(),0); days+=prevMonth.getDate();}
+ if(months<0){years--;months+=12;}
+ const ageText=(years?years+' año(s), ':'')+(months?months+' mes(es), ':'')+days+' día(s)';
+ let milestone='', due=null;
+ if(n<3){milestone='Control postnatal recomendado entre las 48 y 72 horas de vida (alrededor del día 3).';due=new Date(birth);due.setDate(due.getDate()+3);}
+ else if(n<7){milestone='Próximo control postnatal recomendado entre los días 7 y 14 de vida.';due=new Date(birth);due.setDate(due.getDate()+7);}
+ else if(n<14){milestone='Control postnatal recomendado dentro del periodo de los días 7 a 14 de vida.';due=new Date(birth);due.setDate(due.getDate()+14);}
+ else if(n<42){milestone='Próximo control postnatal de referencia: alrededor de las 6 semanas de vida.';due=new Date(birth);due.setDate(due.getDate()+42);}
+ else {milestone='Ya pasó el periodo de controles postnatales de las primeras 6 semanas. Continúa con los controles de crecimiento, desarrollo y vacunas según el calendario nacional y la indicación de su profesional de salud.';}
+ const fmt=x=>x.toLocaleDateString('es-BO',{day:'2-digit',month:'long',year:'numeric'});
+ let follow=due?`<br><strong>Fecha orientativa del próximo control:</strong> ${fmt(due)}${due<visit?' (fecha ya pasada; consulta para reprogramar)':''}`:'';
+ show('compResult',`<strong>Edad exacta a la fecha de consulta</strong><br>${ageText}<br><strong>Total:</strong> ${n} días de vida.<br><br><strong>Seguimiento:</strong><br>${milestone}${follow}<br><br><small>La OMS recomienda contactos postnatales en las primeras 24 horas, entre 48–72 horas, entre los días 7–14 y durante la sexta semana. Si existen riesgos o preocupaciones, pueden necesitarse controles adicionales. Esta sugerencia no sustituye el calendario de vacunación ni la valoración clínica.</small>`);
+}
+document.getElementById('wa').addEventListener('click',function(){const q=document.getElementById('question').value.trim();this.href='https://wa.me/59167750171'+(q?'?text='+encodeURIComponent(q):'')});
+</script>
+</body></html>
